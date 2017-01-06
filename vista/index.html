@@ -2,10 +2,31 @@
 <html>
 <head>
 	<title>Agenda</title>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+	  <!-- Materialize  -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
 	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
 </head>
 <body>
+	<div class="row">
+	    <div class="col s12">
+	      <ul class="tabs">
+	        <li class="tab col s3"><a href="#TareasDiv">Tareas</a></li>
+	        <li class="tab col s3"><a class="active" href="#HorarioDiv">Horario</a></li>
+	        <li class="tab col s3"><a href="#MateriasDiv">Materias</a></li>
+	        <li class="tab col s3"><a href="#PreferenciasDiv">Preferencias</a></li>
+	      </ul>
+	    </div>
+	    <div id="TareasDiv" class="col s12">Test 1</div>
+	    <div id="HorarioDiv" class="col s12">Test 2</div>
+	    <div id="MateriasDiv" class="col s12">Test 3</div>
+	    <div id="PreferenciasDiv" class="col s12">Test 4</div>
+	</div>
 
 
 </body>

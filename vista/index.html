@@ -10,10 +10,13 @@
     <script src="https://use.fontawesome.com/659bb30891.js"></script>
 
 	  <!-- Materialize  -->
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
  	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
 	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+	<script src="controlador/jquery-22.1.js"></script>
+	<script src="controlador/ControladorTareas.js"></script>
 </head>
 <body>
 	<div class="row">
@@ -25,7 +28,43 @@
 	        <li class="tab col s3"><a href="#PreferenciasDiv">Preferencias</a></li>
 	      </ul>
 	    </div>
-	    <div id="TareasDiv" class="col s12">Test 1</div>
+	    <div id="TareasDiv" class="col s12">
+	    <div class="col s2 blue"></div>
+	    	<div class="col s8 white">
+	    		
+				<ul class="collapsible" data-collapsible="accordion">
+				  <li>
+				    <div class="collapsible-header"><i class="material-icons">assignment</i>Trabajo 1</div>
+				    <div class="collapsible-body"><p>Descripcion</p>
+				   
+				    </div>
+				    
+				  </li>
+				  <li>
+				    <div class="collapsible-header"><i class="material-icons">assignment</i>Trabajo 2</div>
+				    <div class="collapsible-body"><p>Descripcion</p></div>
+				  </li>
+				</ul>
+
+				<ul class="collapsible" data-collapsible="accordion">
+				  <li>
+				    <div class="collapsible-header"><i class="material-icons">assignment</i>Trabajo Proximo 1</div>
+				    <div class="collapsible-body"><p>Descripcion</p></div>
+				  </li>
+				  <li>
+				    <div class="collapsible-header"><i class="material-icons">assignment</i>Trabajo Proximo 2</div>
+				    <div class="collapsible-body"><p>Descripcion</p></div>
+				  </li>
+				</ul>
+
+					<a class="btn-floating btn-large waves-effect waves-light red right"><i class="material-icons">add</i></a>
+		    </div>
+		    <div class="col s2 blue"></div>
+
+		
+		    		     
+	    
+	    </div>
 	    <div id="HorarioDiv" class="col s12">Test 2</div>
 	    <div id="MateriasDiv" class="col s12">Test 3</div>
 	    <div id="PreferenciasDiv" class="col s12">

@@ -10,37 +10,32 @@
 
   </head>
   <body>
-    <nav>
-
-
-
-    <div class="nav-wrapper">
-      <div class="grid-example col s12 m6">
-      <a href="#!" class="brand-logo">Añadir Materia</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="waves-effect waves-light btn">Guardar</a></li>
-        <li><a class="waves-effect waves-light btn">Cancelar</a></li>
-      </ul>
+    <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><label  href="#">Añadir Materia</label></li>
+            <li class="tab col s3"><a class="active" href="#">Guardar</a></li>
+            <li class="tab col s3"><a href="#">Cancelar</a></li>
+          </ul>
+        </div>
     </div>
-    </div>
-  </nav>
 
   <div class="row">
     <form class="col s12">
       <div class="row">
         <div class="input-field col s12">
+          <label for="materia_name">Materia</label><br />
           <input id="materia_name" type="text" class="validate">
-          <label for="materia_name">Materia</label>
         </div>
         <div class="input-field col s12">
+        <label for="grupo">Grupo</label><br />
           <input id="grupo" type="text" class="validate">
-          <label for="grupo">Grupo</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
+        <label for="profesor_name">Profesor</label><br />
           <input  id="profesor_name" type="text" class="validate">
-          <label for="profesor_name">Profesor</label>
         </div>
       </div>
 
@@ -56,14 +51,14 @@
 
   <div class="row">
     <div class="input-field col s12">
+    <label for="edificio_name">Edificio</label><br />
       <input  id="edificio_name" type="text" class="validate">
-      <label for="edificio_name">Edificio</label>
     </div>
   </div>
   <div class="row">
     <div class="input-field col s12">
+    <label for="aula_n">Aula</label><br />
       <input  id="aula_n" type="text" class="validate">
-      <label for="aula_n">Aula</label>
     </div>
   </div>
   </body>
